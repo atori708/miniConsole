@@ -1,5 +1,6 @@
 # miniConsole
 
+[![Release](https://img.shields.io/github/v/release/Atori708/miniConsole)](https://github.com/Atori708/miniConsole/releases)
 ![Unity_Version](https://img.shields.io/badge/unity-6000.0+-blue)
 [![License](https://img.shields.io/badge/license-MIT-green)](Packages/com.atori708.miniconsole/LICENSE.md)
 [![Readme_EN](https://img.shields.io/badge/readme-English-red)](README.md)
