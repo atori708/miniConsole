@@ -1,0 +1,19 @@
+{
+  "name": "com.atori708.miniconsole",
+  "displayName": "miniConsole",
+  "version": "0.1.0",
+  "unity": "6000.0",
+  "description": "A minimal Console window built with UI Toolkit. Shows Log / Warning / Error as just the message and \"file:line\".\n\nOpen it from Window > General > miniConsole.",
+  "keywords": [
+    "console",
+    "log",
+    "editor"
+  ],
+  "author": {
+    "name": "Atori708",
+    "url": "https://github.com/Atori708"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/Atori708/miniConsole#readme",
+  "licensesUrl": "https://github.com/Atori708/miniConsole/blob/main/LICENSE.md"
+}

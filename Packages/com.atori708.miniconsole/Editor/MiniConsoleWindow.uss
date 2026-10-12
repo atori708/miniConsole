@@ -1,0 +1,129 @@
+.mc-root {
+    flex-grow: 1;
+}
+
+.mc-hidden {
+    display: none;
+}
+
+.mc-flex-spacer {
+    flex-grow: 1;
+}
+
+.mc-search {
+    flex-shrink: 1;
+    min-width: 80px;
+}
+
+.mc-icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.mc-icon--error {
+    background-color: rgb(227, 100, 100);
+}
+
+.mc-icon--warning {
+    background-color: rgb(217, 167, 46);
+}
+
+.mc-icon--info {
+    background-color: rgb(154, 154, 154);
+}
+
+.mc-severity-toggle {
+    min-width: 40px;
+}
+
+.mc-severity-toggle .unity-toggle__input {
+    align-items: center;
+}
+
+.mc-severity-toggle__icon {
+    margin-right: 4px;
+}
+
+.mc-severity-toggle .unity-toggle__text {
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+}
+
+.mc-split {
+    flex-grow: 1;
+}
+
+.mc-list {
+    flex-grow: 1;
+}
+
+.mc-list .unity-list-view__empty-label {
+    display: none;
+}
+
+.mc-row {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mc-row__icon {
+    margin-right: 0;
+    padding-left: 2px;
+}
+
+/* タイムスタンプは既定で非表示。ListView に mc-list--show-timestamp が付いたときだけ出す */
+.mc-row__timestamp {
+    display: none;
+    flex-shrink: 0;
+    margin: 0 0 0 4px;
+    padding: 0;
+    opacity: 0.6;
+    -unity-text-align: middle-left;
+}
+
+.mc-list--show-timestamp .mc-row__timestamp {
+    display: flex;
+}
+
+.mc-row__message {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -unity-text-align: middle-left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.mc-row__count {
+    flex-shrink: 0;
+    margin-left: 0;
+    padding: 0 5px;
+    border-radius: 8px;
+    font-size: 10px;
+    background-color: rgba(128, 128, 128, 0.35);
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 1px;
+}
+
+.mc-detail {
+    border-top-width: 1px;
+    border-top-color: var(--unity-colors-default-border);
+}
+
+.mc-detail__text {
+    white-space: normal;
+    padding: 6px;
+}

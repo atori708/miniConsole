@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.atori708.miniconsole/Editor/MiniConsoleWindow.uss?fileID=7433441132597879392&amp;guid=cce490d8316a4f1478d1613a04071a18&amp;type=3#MiniConsoleWindow"/>
+    <ui:VisualElement name="root" class="mc-root">
+        <uie:Toolbar>
+            <uie:ToolbarButton name="clearButton" text="Clear" style="flex-direction: column; flex-shrink: 0; margin-left: 0; padding-right: 4px; padding-left: 3px;"/>
+            <uie:ToolbarMenu name="clearMenu" tooltip="Clear options" style="margin-left: -2px; padding-left: 2px; flex-shrink: 0;"/>
+            <uie:ToolbarToggle name="collapseToggle" text="Collapse" style="padding-left: 2px; padding-right: 2px;"/>
+            <uie:ToolbarSpacer class="mc-flex-spacer"/>
+            <uie:ToolbarSearchField name="searchField" class="mc-search" style="min-width: 40px;"/>
+            <uie:ToolbarToggle name="logToggle" tooltip="Log" class="mc-severity-toggle" style="min-width: 30px; padding-right: 1px;"/>
+            <uie:ToolbarToggle name="warningToggle" tooltip="Warning" class="mc-severity-toggle" style="min-width: 30px; padding-right: 1px; padding-left: 4px;"/>
+            <uie:ToolbarToggle name="errorToggle" tooltip="Error" class="mc-severity-toggle" style="min-width: 30px; padding-left: 4px; padding-right: 0;"/>
+        </uie:Toolbar>
+        <ui:TwoPaneSplitView name="split" orientation="Vertical" fixed-pane-index="1" fixed-pane-initial-dimension="120" class="mc-split">
+            <ui:ListView name="logList" fixed-item-height="20" selection-type="Single" show-alternating-row-backgrounds="ContentOnly" class="mc-list"/>
+            <ui:ScrollView name="detailScroll" class="mc-detail">
+                <ui:Label name="detailLabel" class="mc-detail__text"/>
+            </ui:ScrollView>
+        </ui:TwoPaneSplitView>
+    </ui:VisualElement>
+</ui:UXML>
