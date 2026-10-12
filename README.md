@@ -1,6 +1,7 @@
 # miniConsole
 
 ![Unity_Version](https://img.shields.io/badge/unity-6000.0+-blue)
+[![License](https://img.shields.io/badge/license-MIT-green)](Packages/com.atori708.miniconsole/LICENSE.md)
 [![Readme_JP](https://img.shields.io/badge/readme-%E6%97%A5%E6%9C%AC%E8%AA%9E-red)](README.ja.md)
 
 A simple Console window for Unity that keeps only the features you actually need from the built-in Console.
@@ -44,4 +45,4 @@ public static class MyLog
 
 ## License
 
-[MIT](LICENSE.md)
+[MIT](Packages/com.atori708.miniconsole/LICENSE.md)

@@ -1,6 +1,7 @@
 # miniConsole
 
 ![Unity_Version](https://img.shields.io/badge/unity-6000.0+-blue)
+[![License](https://img.shields.io/badge/license-MIT-green)](Packages/com.atori708.miniconsole/LICENSE.md)
 [![Readme_EN](https://img.shields.io/badge/readme-English-red)](README.md)
 
 Unity 標準の Console を、必要な機能だけに絞ったシンプルな Console ウィンドウ。
@@ -45,4 +46,4 @@ https://github.com/Atori708/miniConsole.git?path=Packages/com.atori708.miniconso
 
 ## ライセンス
 
-[MIT](LICENSE.md)
+[MIT](Packages/com.atori708.miniconsole/LICENSE.md)
